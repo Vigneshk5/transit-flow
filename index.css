@@ -2058,23 +2058,25 @@ button{
     .fnav nav ul{
         width: 100%;
         height: auto;
-        gap:125px;
+        gap:90px;
         margin: 0;
         margin-left: 70px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        /* display: none; */
+        display: none;
     }
-
+    .fnav div{
+        width: 100%;
+    }
     .fcontent{
         
         height: auto;
         padding: 0 50px;
         width: 100%;
         align-items: flex-start;
-        justify-content: flex-start;
-        gap:90px;
+        justify-content: space-between;
+        /* gap:90px; */
 
     }
     .ffoot{
@@ -2754,7 +2756,8 @@ textarea::placeholder{
     width: 90%;
 }
 .pages{
-    display: none;
+    display:block;
+    margin-bottom: 15px;
 }
 }
 
@@ -3212,7 +3215,7 @@ textarea::placeholder{
             flex-direction: column;
             justify-content: flex-start;
             align-items: flex-start;
-            padding: 0 30px;
+            padding: 0 10px;
         }
         .nav2{
             height: auto;
@@ -3947,7 +3950,7 @@ textarea::placeholder{
         width: 50%;
     }
     .fnav div img{
-        margin-left: 0;
+        margin-left: 20px;
     }
     .pages{
         display: block;
