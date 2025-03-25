@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma-Design</title>
+    <link rel="stylesheet" href="index.css">
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">-->
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>  
+    <header class="padlr10">
+        <div class="container font10">
+            <div id="progress-bar" style="display: none;"></div>
+
+            <!--logo-->
+            <div class="logo">
+                <img src="photos/Logo.png" class="logo-img">
+                <img src="photos/menu-yellow.png" alt="menu" class="menu-bar" id="menu-bar">
+            </div>
+            <!--contact detailes-->
+            <div class="contact-info-first font10 clr-white">
+                <div class="info">
+                    <img src="photos/time.png">
+                    <span class="con-inf">Mon - Sat 9:00 - 18:00<br>Sunday Closed</span>
+                </div>
+                <div class="info">
+                    <img src="photos/email.png">
+                    <span class="con-inf">Email<br>contact@logistics.com</span>
+                </div>
+                <div class="info">
+                    <img src="photos/phone.png">
+                    <span class="con-inf">Call Us<br>(00) 112 365 489</span>
+                </div>
+            </div>
+
+        </div>
+    </header>
+     <section id="maincontent">
+        <section class="hero2">
+            <div class="navigate" id="navigate">
+                <nav class="nav1" id="nav1">
+                    <div class="logo-second">
+                        <img src="photos/Logo.png"  class="logo-img">
+                        <img src="photos/down.png" alt="" class="down" id="down">
+                    </div>
+                    <div class="nav1-link">
+                        <ul class="nav-links krub" id="nav-links" style="font-weight: 600;color: rgba(255, 255, 255, 1);">
+                            <li><a href="index.html" class="active a">Home</a></li>
+                            <li class="activate"><a href="about.html" class="active a">About</a></li>
+                            <li><a href="service.html" class="" onclick="loadPage('service')">Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-info-second font10 clr-white">
+                        <div class="info krub" style="color: rgba(255, 255, 255, 1);font-weight: 500;">
+                            <img src="photos/time.png">
+                            <span class="con-inf">Mon - Sat 9:00 - 18:00<br>Sunday Closed</span>
+                        </div>
+                        <div class="info">
+                            <img src="photos/email.png">
+                            <span class="con-inf">Email<br>contact@logistics.com</span>
+                        </div>
+                        <div class="info">
+                            <img src="photos/phone.png">
+                            <span class="con-inf">Call Us<br>(00) 112 365 489</span>
+                        </div>
+                    </div>
+                    <div class="icon-btn" id="icon-btn">
+                        <div class="social-icons2" id="social-icons">
+                            <img src="photos/Instagram.png">
+                            <img src="photos/facebook.png">
+                            <img src="photos/Twitter.png">
+                            <img src="photos/Linkdin.png">
+                        </div>
+                        <div class="button1 font12 krub" style="color: rgba(35, 33, 42, 1);font-weight: 600;">
+                            Request Quote
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="hero-content">
+                <div>
+                    <div class="paddings"><div class="head"><div class="division"></div><span class="font10 pad3" style="background-color: rgba(4, 28, 55, 0.5);color: rgb(190, 184, 184);">About Us</span></div></div>
+                    <span class="margin2 spand rubik" style="color: rgba(255, 255, 255, 1);font-weight: 700;">About Our Logistics</span>
+                </div>
+            </div>
+        </section>
+        <section class="containers">
+            <div class="container1">
+                <div class="image-section">
+                    <img src="photos/Image 1.png" alt="Truck" class="large-image"><img src="./photos/white.png" alt="" class="middle-img">
+                    <img src="photos/Image 2.png" alt="Delivery Person" class="small-image">
+                </div>
+        
+                <div class="content-section1">
+                    <div class="paddings"><div class="head"><div class="division"></div><span class="font10 pad3" style="background-color: rgba(232, 232, 232, 0.5);color: rgba(28, 31, 53, 1);">About Us</span></div></div>
+                    <h2 class="rubik" style="font-weight: 600;">Our Company Overview</h2>
+                    <p class="krub font12" style="font-weight: 500;">
+                        Leverage agile frameworks to provide a robust synopsis for strategy foster<br> 
+                        collaborative thinking to further the overall value proposition.
+                    </p>
+                    
+                    <div class="buttons krub " style="font-weight: 600;">
+                        <button class="active btn" onclick="change(1)">Our Approch</button>
+                        <button onclick="change(2)" class="btn" >Our Approch</button>
+                        <button onclick="change(3)" class="btn">Our Approch</button>
+                    </div>
+                    <p class="description margin1 krub font12 app" id="ap1" style="color: rgba(102, 108, 137, 1);font-weight: 500;">
+                        Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium<br>
+                        doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore<br>
+                        veritatis et quasi architecto beatae vitae dicta sunt, explicabo.<br>
+                        Nemo enim ipsam voluptatem quia voluptas sit.
+                    </p>
+                    <p class="description margin1 krub font12 app" id="ap2" style="color: rgba(102, 108, 137, 1);font-weight: 500;display: none;">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est numquam perspi<br>
+                        doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore<br>
+                        veritatis et quasi architecto beatae vitae dicta sunt, explicabo.<br>
+                        Nemo enim ipsam voluptatem quia voluptas sit.
+                    </p>
+                    <p class="description margin1 krub font12 app" id="ap3" style="color: rgba(102, 108, 137, 1);font-weight: 500;display: none;">
+                        Est numquam perspiciatis, suscipit aut itaque quas iure. Explicabo deleniti<br>
+                        doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore<br>
+                        veritatis et quasi architecto beatae vitae dicta sunt, explicabo.<br>
+                        Nemo enim ipsam voluptatem quia voluptas sit.
+                    </p>
+                    
+                    <div class="bagrnd1 margin1">
+                        <!-- <button class="contact-btn2">More Works</button>
+                          -->
+                        <img src="./photos/contact.png" alt=""><span class="button krub" style="color: rgba(255, 255, 255, 1);font-weight: 600;">Learn More </span>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+        <section class="logistic" style="background-color: rgba(244, 244, 244, 1);">
+            <div class="logistics">
+                <div class="logistics1 paddings"><div class="head"><div class="division"></div><span class="font10 pad3">What We Do</span></div></div>
+
+                <div class="logistics2 margin"><h3 class="rubik font20" style="text-align: center;font-weight: 600;">Our Logistics Services</h3></div>
+                <div>
+                    <div class="logistics3">
+                        <div class="log">
+                            <div class="log1">
+                                <img src="photos/Icon1.png" alt="" class="margin">
+                                <h3 class="margin rubik" style=" font-weight: 400;">Sea Transport Services</h3>
+                                <div class="margin1 krub font12"><span style="font-weight: 500;color: rgba(102, 108, 137, 1);font-size: 12px;">Following the quality of our service<br>thus having gained trust of our<br>many clients.</span></div>
+                            </div>
+                            <div class="log1">
+                                <img src="photos/second.png" alt="" class="margin">
+                                <h3 class="margin rubik" style="font-weight: 400;">Sea Transport Services</h3>
+                                <div class="margin1 krub font12"><span style="font-weight: 500;color: rgba(102, 108, 137, 1);font-size: 12px;">Following the quality of our service<br>thus having gained trust of our<br>many clients.</span></div>
+                            </div>
+                        </div>
+                        <div class="log">
+                            <div class="log1">
+                                <img src="photos/Icon4.png" alt="" class="margin">
+                                <h3 class="margin rubik" style="font-weight: 400;">Sea Transport Services</h3>
+                                <div class="margin1 krub font12"><span style="font-weight: 500;color: rgba(102, 108, 137, 1);font-size: 12px;">Following the quality of our service<br>thus having gained trust of our<br>many clients.</span></div>
+                            </div>
+                            <div class="log1">
+                                <img src="photos/Icon2.png" alt="" class="margin">
+                                <h3 class="margin rubik" style="font-weight: 400;">Sea Transport Services</h3>
+                                <div class="margin1 krub font12"><span style="font-weight: 500;color: rgba(102, 108, 137, 1);font-size: 12px;">Following the quality of our service<br>thus having gained trust of our<br>many clients.</span></div>
+                            </div>
+                        </div>
+                        <div class="log">
+                            <div class="log1">
+                                <img src="photos/Icon3.png" alt="" class="margin">
+                                <h3 class="margin rubik" style="font-weight: 400;">Sea Transport Services</h3>
+                                <div class="margin1 krub font12"><span style="font-weight: 500;color: rgba(102, 108, 137, 1);font-size: 12px;">Following the quality of our service<br>thus having gained trust of our<br>many clients.</span></div>
+                            </div>
+                            <div class="log1">
+                                <img src="photos/third.png" alt="" class="margin">
+                                <h3 class="margin rubik" style="font-weight: 400;">Sea Transport Services</h3>
+                                <div class="margin1 krub font12"><span style="font-weight: 500;color: rgba(102, 108, 137, 1);font-size: 12px;">Following the quality of our service<br>thus having gained trust of our<br>many clients.</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="logistics4 margin1">
+                    <div class="bagrnd1 margin">
+                        <!-- <button class="contact-btn2">More Works</button>
+                          -->
+                        <img src="./photos/contact.png" alt=""><span class="button krub" style="color: rgba(255, 255, 255, 1);font-weight: 600;">More Work</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="transport ">
+            <div class="tra">
+                <div>
+                    <div class="cust1 df">
+                        <div class="head">
+                            <div class="division">
+                            </div>
+                            <span class="font12 pad3">The Transporters</span>
+                        </div>
+                    </div> 
+                    <div class="margin1 df rubik"><span style="font-weight: 600; font-size: 24px;">Meet Expert Team</span></div>
+                </div>
+            <div class="tran margin1">
+                <div class="trans">
+                    <div class="imag">
+                        <img src="photos/Image1.png" alt="">
+                    </div>
+                    <div class="clr-white font10 padlt">
+                        <h2 class="rubik" style="color: rgba(255, 255, 255, 1); font-weight: 500;">Jessca Arow</h2>
+                        <p class="krub" style="color:rgba(255, 255, 255, 1);font-weight: 500;">Designer</p>
+                    </div>
+                    <div class="social-icons1">
+                        <img src="photos/twit.png" alt="">
+                        <img src="photos/faceb.png" alt="">
+                        <img src="photos/insta.png" alt="">
+                    </div>
+                </div>
+                <div class="trans">
+                    <div class="imag">
+                        <img src="photos/Image2.png" alt="">
+                    </div>
+                    <div class="clr-white font10 padlt">
+                        <h2 class="rubik" style="color: rgba(255, 255, 255, 1);font-weight: 500;">Kathleen Smith</h2>
+                        <p class="krub" style="color: rgba(255, 255, 255, 1);font-weight: 500;">Designer</p>
+                    </div>
+                    <div class="social-icons1">
+                        <img src="photos/linld.png" alt="">
+                        <img src="photos/twit.png" alt="">
+                        <img src="photos/faceb.png" alt="">
+                        <img src="photos/insta.png" alt="">
+                    </div>
+                </div>
+                <div class="trans">
+                    <div class="imag">
+                        <img src="photos/Image3.png" alt="">
+                    </div>
+                    <div class="clr-white font10 padlt">
+                        <h2 class="rubik" style="color: rgba(255, 255, 255, 1);font-weight: 500;">Rebecca Tylor</h2>
+                        <p class="krub" style="color: rgba(255, 255, 255, 1);font-weight: 500;">Designer</p>
+                    </div>
+                    <div class="social-icons1">
+                        <img src="photos/faceb.png" alt="">
+                        <img src="photos/insta.png" alt="">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="customer" style="background-color: rgba(244, 244, 244, 1)">
+            <div class="customers">
+                <div class="cust1"><div class="head"><div class="division"></div><span class="font12 pad3">Testimonial</span></div></div>                 <div class="cust2 margin1 rubik"><h3 style="font-weight: 600;">What Our Customer Say</h3><img src="photos/Aerrow.png" alt=""></div>
+                <div class="cust3">
+                    <div class="cus3 margin">
+                        <div class="cust31">
+                            <div class="cust311">
+                                <div class="cust3111">
+                                    <img src="photos/User1.png" alt="">
+                                    <div>
+                                        <h4 class="rubik" style="color:rgba(9, 18, 66, 1);font-weight: 500;">Kathaleen Smith</h4>
+                                        <span class="krub" style="color: rgba(102, 108, 137, 1);font-weight: 500;">Fuel Company</span>
+                                    </div>
+                                </div>
+                                <div class="icn">
+                                    <img src="photos/icons.png" alt="">
+                                </div>
+                            </div>
+                            <div class="margin">
+                                <span class="krub" style="font-style: italic;font-weight: 500;color: rgba(102, 108, 137, 1);">Leverage agile frameworks to provide a robust synopsis for<br>
+                                    strategy foster collaborative thinking to further the overall<br>
+                                    value proposition. Organically grow the holistic world view<br>
+                                    of disruptive innovation via workplace diversity and<br>empowermen</span>
+                            </div>
+                            <div class="marginimg margin">
+                                <img src="photos/Star.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cus3 margin">
+                        <div class="cust32">
+                            <div class="cust322">
+                                <div class="cust3222">
+                                    <img src="photos/User2.png" alt="">
+                                    <div>
+                                        <h4 class="rubik" style="color:rgba(255, 255, 255, 1);font-weight: 500;">John Martin</h4>
+                                        <span class="krub" style="color:rgba(255, 255, 255, 1);font-weight: 500;">Restoration Company</span>
+                                    </div>
+                                </div>
+                                <div class="icn">
+                                    <img src="photos/icons.png" alt="">
+                                </div>
+                            </div>
+                            <div class="margin">
+                                <span class="krub" style="font-style: italic;font-weight: 500;color: rgba(255, 255, 255, 1);">Leverage agile frameworks to provide a robust synopsis for<br>
+                                    strategy foster collaborative thinking to further the overall<br>
+                                    value proposition. Organically grow the holistic world view<br>
+                                    of disruptive innovation via workplace diversity and<br>empowermen</span>
+                            </div>
+                            <div class="marginimg margin">
+                                <img src="photos/Star.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pricing">
+            <div class="pricing-section">
+                <div class="paddings"><div class="head"><div class="division"></div><span class="font10 pad3 rubik" style="background-color: rgba(232, 232, 232, 0.5);color:rgba(28, 31, 53, 1);font-weight: 400;">Pricing</span></div></div>
+
+
+                <h2 class="rubik margin1" style="color: rgba(28, 31, 53, 1);font-weight: 600;">Our Best Pricing</h2>
+        
+                <div class="pricing-container">
+                    <div class="pricing-card">
+                        <h3 class="rubik" style="font-weight: 500;color: rgba(28, 31, 53, 1);">Basic</h3>
+                        <p class="price rubik" style="font-weight: 500;">$39 <span style="font-weight: 400;">/ month</span></p>
+                        <ul class="price-ul rubik" style="font-weight: 400;">
+                            <li>Single Truck</li>
+                            <li>Full Insurance</li>
+                            <li>500 Km</li>
+                            <li>Real-time rate shopping</li>
+                        </ul>
+                        <div class="bagrnd1">
+                            <!-- <button class="contact-btn2">More Works</button>
+                              -->
+                            <img src="./photos/contact.png" alt=""><span class="button krub" style="color: rgba(255, 255, 255, 1);font-weight: 600;">Choose Plan</span>
+                        </div>
+                    </div>
+        
+                    
+                    <div class="pricing-card standard">
+                        <h3 class="rubik" style="font-weight: 500;color: rgba(255, 255, 255, 1);">Standard</h3>
+                        <p class="price rubik" style="font-weight: 500;color: rgba(255, 255, 255, 1);">$59 <span style="font-weight: 400;">/ month</span></p>
+                        <ul class="price-ul rubik" style="font-weight: 400;color: rgba(255, 255, 255, 1);">
+                            <li>Single Truck</li>
+                            <li>Full Insurance</li>
+                            <li>500 Km</li>
+                            <li>Real-time rate shopping</li>
+                        </ul>
+                        <div class="bagrnd1">
+                            <!-- <button class="contact-btn2">More Works</button>
+                              -->
+                            <img src="./photos/bgyellow.png" alt=""><span class="button krub" style="font-weight:600;color: rgba(35, 33, 42, 1);">Choose Plan</span>
+                        </div>
+                    </div>
+        
+                    
+                    <div class="pricing-card">
+                        <h3 class="rubik" style="font-weight: 500;">Premium</h3>
+                        <p class="price rubik" style="font-weight: 500;">$89 <span style="font-weight: 400;">/ month</span></p>
+                        <ul class="price-ul rubik" style="font-weight: 400;">
+                            <li>Double Truck</li>
+                            <li>Full Insurance</li>
+                            <li>Unlimited</li>
+                            <li>Real-time rate shopping</li>
+                        </ul>
+                        <div class="bagrnd1">
+                            <!-- <button class="contact-btn2">More Works</button>
+                              -->
+                            <img src="./photos/contact.png" alt=""><span class="button krub" style="color: rgba(255, 255, 255, 1);font-weight: 600;">Choose Plan</span>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+        <section class="last">
+            <div class="container2">
+                
+                <div class="faq-section">
+                    <div class="paddings"><div class="head"><div class="division"></div><span class="font10 pad3 rubik" style="background-color: rgba(232, 232, 232, 0.5);color: rgba(28, 31, 53, 1);font-weight: 400;">FAQ</span></div></div>
+
+    
+                    <h3 class="rubik margin1" style="font-weight: 600;">Frequently Asked<br>Questions</h3>
+        
+                    <div class="faq rubik" style="font-weight: 400;">
+                        <div class="margin30">
+                            <span>How can I pay for your logistics services?</span><img src="photos/down.png" alt="" style=" width: 10px;height: 10px;" class="img-display" onclick="imgclick(1)">
+                        </div>
+                        <p class="font12 para" id="para1" >Leverage agile frameworks to provide a robust synopsis for strategy foster<br>collaborative thinking to further the overall value proposition. Organically<br>grow the holistic world view of disruptive.</p><br>
+                        <div class="margin30">
+                            <span>What payment methods are supported?</span><img src="photos/cross.png" alt="" class="cross img-display" onclick="imgclick(2)">
+                        </div>
+                        <p class="font12 para" id="para2" style="display: none;">Leverage agile frameworks to provide a robust synopsis for strategy foster<br>collaborative thinking to further the overall value proposition. Organically<br>grow the holistic world view of disruptive.</p>
+                        <div class="margin30">
+                            <span>What options for logistics plans are available?</span><img src="photos/cross.png" alt="" class="cross img-display" onclick="imgclick(3)">
+                        </div>
+                        <p class="font12 para" id="para3" style="display: none;">Leverage agile frameworks to provide a robust synopsis for strategy foster<br>collaborative thinking to further the overall value proposition. Organically<br>grow the holistic world view of disruptive.</p>
+                        <div class="margin30">
+                            <span>Can I specify a delivery date when ordering?</span><img src="./photos/cross.png" alt="" class="cross img-display" onclick="imgclick(4)">
+                        </div>
+                        <p class="font12 para" id="para4" style="display: none;">Leverage agile frameworks to provide a robust synopsis for strategy foster<br>collaborative thinking to further the overall value proposition. Organically<br>grow the holistic world view of disruptive.</p>
+                    </div>
+                </div>
+        
+                
+                <div class="consultation-section">
+                    <img src="photos/pic.png" alt="">
+                    <div class="consultation-box">
+                        <div class="paddings"><div class="head"><div class="division"></div><span style="background-color: rgba(17, 28, 85, 1);">Let's Talk</span></div></div>
+                        <h3 class="rubik" style="font-size: 14px;color: rgba(255, 255, 255, 1);font-weight: 500;">You Need Any Help? Get Free<br>Consultation</h3>
+                        <div class="info">
+                            <img src="photos/phone.png" style="width:45px;" alt="">
+                            <span class="con-inf krub font12" style="color: rgba(255, 255, 255, 1);font-weight: 500;">Have Any Questions<br>(00) 112 365 489</span>
+                        </div>
+                        <br>
+                        <div class="bagrnd1" style="width: 100px;height: 45px;">
+                            <!-- <button class="contact-btn2">More Works</button>
+                              -->
+                            <img src="./photos/bgyellow.png" alt="" style="width: 100%;height: 100%;"><span class="button" style="font-weight:600;color: rgba(35, 33, 42, 1);">Contact Us</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pimages">
+            <div class="pimg">
+                <img src="photos/p1.png" alt="">
+                <img src="photos/p2.png" alt="">
+                <img src="photos/p3.png" alt="">
+                <img src="photos/p4.png" alt="">
+            </div>
+        </section>
+    </section>
+    
+
+    
+    <section class="footer"> 
+        <div class="fnav">
+            <div class="imgbag">
+                <img src="photos/Logo.png">
+            </div>
+            <nav class="nav2 rubik">
+                <ul style="font-weight: 500;color:rgba(255, 255, 255, 1);">
+                    <li><a>Pages</a></li>
+                    <li><a>Utility</a></li>
+                    <li><a>Subscribe</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="fcontent">
+            <div class="fcontent1 font12 krub" style="font-weight: 500;color:rgba(255, 255, 255, 1);">
+                <span style="color: rgba(232, 232, 232, 1);">Levearage agile frameworks to provide a<br>robust synopsis for strategy collaborative<br>
+                thinking to further the overall value<br>proposition</span>
+                <div>
+                    <img src="photos/email.png">
+                    <span>Email<br>contact@logistics.com</span>
+                </div>
+                <div>
+                    <img src="photos/phone.png">
+                    <span>Call Us<br>(00) 112 365 489</span>
+                </div>
+            </div>
+            <div class="fcontent2 font12 krub " style="color: rgba(255, 255, 255, 1);font-weight: 500;">
+                <h2 class="pages" style="">Pages</h2>
+                <p>About Us</p>
+                <p>Our Team</p>
+                <p>Our Project</p>
+                <p>Pricing</p>
+                <p>Contact</p>
+            </div>
+            <div class="fcontent3 font12 krub scroll-fade visible" style="color: rgba(255, 255, 255, 1);font-weight: 500;">
+                <h2 class="pages" style="">Utility</h2>
+                <p>Style Guide</p>
+                <p>Changelog</p>
+                <p>Licenses</p>
+                <p>Protected</p>
+                <p>Not Found</p>
+            </div>
+            <div class="fcontent4 font12 krub">
+                <h2 class="pages krub" style="margin-bottom: 15px;color: rgba(255, 255, 255, 1);font-weight: 600;">Subscribe</h2>
+                <input placeholder="Email here*"><br><br>
+                <div class="dfonly">
+                    <button class="button3" style="min-width: 100px; border-width:0;">Send Now</button>
+                    <div class="social-icons2 scroll-fade visible">
+                        <img src="photos/Linkdin.png" alt="">
+                        <img src="photos/Twitter.png" alt="">
+                        <img src="photos/facebook.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="border-bottom"></div> -->
+        <div class="ffoot font12">
+            <p class="krub" style="color: rgba(255, 255, 255, 1);font-weight: 500;">Copyright The Web People.</p>
+            <nav>
+                <ul class="krub" style="font-weight: 400; color:rgba(131, 136, 167, 1)">
+                    <li><a>Style Guide</a></li>
+                    <li><a>Licenses</a></li>
+                    <li><a>Changelog</a></li>
+                    <li><a>password</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
