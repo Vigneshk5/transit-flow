@@ -959,8 +959,8 @@ textarea::placeholder{
     font-size: 14px;
 }
 .log1 img{
-    height: 35px;
-    width: 50px;
+    max-height: 35px;
+    max-width: 45px;
 }
 .logistics4{
     display: flex;
@@ -2321,6 +2321,7 @@ button{
     .content-section1 {
         flex: 1;
         padding: 20px;
+        width: 50%;
     }
     
     .tag {
@@ -3531,6 +3532,7 @@ textarea::placeholder{
         .content-section1 {
             flex: 1;
             padding: 20px;
+            width: 100%;
         }
         
         .tag {
@@ -3981,6 +3983,9 @@ textarea::placeholder{
     }
     .fcontent2 p:not(:first-child),.fcontent3 p:not(:first-child){
         margin-top: 10px;
+    }
+    .faq div{
+        margin-top:0;
     }
     .pages{
         display: block;
@@ -4836,7 +4841,9 @@ textarea::placeholder{
         color: #555;
         margin-bottom: 15px;
     }
-    
+    .content-section{
+        width: 100%;
+    }
     .buttons {
         display: flex;
         flex-wrap: wrap;
@@ -4851,6 +4858,7 @@ textarea::placeholder{
         cursor: pointer;
         font-weight: bold;
         border-radius: 5px;
+        width: 110px;
     }
     
     .buttons .active {
